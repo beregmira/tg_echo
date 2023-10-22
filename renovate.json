@@ -1,0 +1,20 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base"
+  ],
+  "prCreation": "immediate",
+  "baseBranches": [
+    "master",
+    "conversation",
+    "echo",
+    "exception-handling",
+    "poll",
+    "heroku",
+    "ktor-webhook",
+    "spring-bot"
+  ],
+  "automerge": true,
+  "automergeType": "pr",
+  "platformAutomerge": true
+}
